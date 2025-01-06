@@ -1,0 +1,27 @@
+.box {
+    display: grid;
+    background-color: red;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    height: 600px;
+    gap: 40px;
+    padding: 20px;
+}
+.b1 {
+    background-color: pink;
+
+}
+.b2 {
+    background-color: pink;
+}
+.b3 {
+    background-color: pink;
+}
+.b4 {
+    background-color: pink;
+    grid-row: 2/4;
+}
+.b5 {
+    background-color: pink;
+    grid-row: 2/4;
+}
